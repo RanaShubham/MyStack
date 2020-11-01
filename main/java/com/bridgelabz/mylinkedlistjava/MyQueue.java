@@ -36,7 +36,7 @@ public class MyQueue<K>
 	}
 	
 	/**
-	 * Removes the first Node present in the queue.
+	 * Removes the Node in the front of the queue.
 	 * @return Node
 	 */
 	public Node<K> dequeue() 
