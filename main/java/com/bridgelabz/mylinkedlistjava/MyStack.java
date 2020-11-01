@@ -22,4 +22,10 @@ public class MyStack<K>
 	{
 		this.myLinkedList.addTop(myNode);
 	}
+	public Node<K> pop() 
+	{
+		Node<K> nodeToBePopped = this.myLinkedList.getHead();
+		this.myLinkedList.popHead();
+		return nodeToBePopped;
+	}
 }
